@@ -1,0 +1,352 @@
+.ve-w-cock {
+	width: 100%;
+	font-size: 12px;
+	margin: -9px 0;
+	color: @textBase;
+
+	h3 {
+		color: @title;
+		font-size: 14px;
+		background: @titleBg;
+		margin: 0 -20px;
+		padding: 0 20px;
+		line-height: 30px;
+		font-weight: bold;
+	}
+
+	table, td, th {
+		border: 0;
+	}
+	
+	th {
+		font-weight: bold;
+	}
+
+	.ck-table {
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		cursor: default;
+
+		th {
+			text-align: left;
+			vertical-align: top;
+			overflow: hidden;
+		}
+	}
+
+	.ck-std {
+		overflow: hidden;
+		line-height: 24px;
+
+		h4 {
+			font-size: 14px;
+			float: left;
+			font-weight: bold;
+			color: @title;
+			margin: 0 0 12px;
+		}
+	}
+
+	span, label {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box;
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		
+		&:hover, &.hover {
+			background: @hover;
+			color: @blank;
+		}
+	}
+	
+	input {
+		height: auto;
+	}
+
+	.item-hot {
+		color: @hot;
+	}
+
+	.item-bold {
+		font-weight: bold;
+	}
+
+	.item-new span:after{
+		content: 'new';
+		font-size: 12px;
+		color: @hot;
+		line-height: 1em;
+		vertical-align: 7px;
+		padding-left: 4px;
+	}
+
+	.ck-std-list {
+		float: left;
+		width: 750px;
+		margin: 0 -25px 0px 0;
+
+		label {
+			display: inline-block;
+			padding-right: 5px;
+			margin-right: 20px;
+			width: auto;
+		}
+
+		input {
+			margin: 0 4px;
+			vertical-align: -1px;
+		}
+	}
+
+	.item-cache {
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: @itemBg;
+		border: 1px solid @hover;
+		padding: 0 0 6px;
+		display: none;
+		box-shadow: 0 0 24px rgba(254,153,1,.1);
+
+		td, th {
+			text-align: left;
+			height: 26px;
+			line-height: 26px;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+
+		label, em {
+			display: block;
+			padding: 0 15px 0 9px;
+			width: initial;
+		}
+
+		input {
+			vertical-align: -1px;
+			margin-right: 4px;
+		}
+	}
+
+	.ck-job-hot {
+		padding: 8px 0;
+
+		.ck-dashed {
+			td {
+				height: 8px;
+			}
+
+			i {
+				display: block;
+				border-bottom: 1px dashed @dashedLine;
+			}
+		}
+		
+		th {
+			em {
+				width: 6.2em;
+				display: block;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+
+		td {
+			width: 30.3%;
+			height: 26px;
+			padding-right: 5px;
+		}
+
+		label {
+			display: block;
+			width: 156px;
+			*width: 156px;
+			font-size: 12px;
+		}
+
+		input {
+			margin: 0 5px;
+			vertical-align: -1px;
+		}
+	}
+
+	.ck-job-all, .ck-class-all {
+		padding-top: 10px;
+		margin: 0 -5px;
+
+		td {
+			width: 20%;
+			height: 32px;
+			
+			&:last-child {
+				span, label {
+					width: 120px;
+				}
+			}
+		}
+
+		span, label {
+			display: block;
+			margin: 0 2px;
+			padding: 0 4px;
+			line-height: 26px;
+			width: 148px;
+
+			&:hover, &.hover {
+				input {
+					display: inline-block;
+				}
+			}
+		}
+
+		input {
+			margin-right: 4px;
+			vertical-align: -1px;
+			display: none;
+		}
+	}
+
+  	.ck-class-all {
+	  td {
+		&:last-child {
+		  span, label {
+			width: 120px;
+		  }
+		}
+	  }
+
+	  span, label {
+		width: 197px;
+	  }
+	}
+
+
+	.ck-area-hot {
+		margin: 12px 0;
+
+		th, td {
+			height: 30px;
+		}
+
+		th {
+			vertical-align: middle;
+			//width: 24px;
+			font-weight: normal;
+			width: 70px;
+			font-weight: 700;
+		}
+
+		td {
+			width: 81px;
+		}
+
+		label {
+			display: block;
+			height: 24px;
+			padding-left: 5px;
+			width: 82px;
+			*width: 77px;
+
+			&:hover, &.hover {
+				input {
+					display: inline-block;
+					vertical-align: -1px;
+				}
+			}
+		}
+
+		input {
+			display: none;
+			margin-right: 4px;
+		}
+	}
+
+	.ck-area-all {
+		th, td {
+			height: 32px;
+			vertical-align: middle;
+			width: 80px;
+		}
+
+		th {
+			color: @hot;
+		}
+
+		input {
+			vertical-align: -1px;
+			margin-right: 4px;
+			display: none;
+		}
+
+		span, label {
+			display: block;
+			height: 24px;
+			padding: 0 5px;
+			width: inherit;
+
+			&:hover, &.hover {
+				input {
+					display: inline-block;
+				}
+			}
+		}
+	}
+	// 这段代码是为了在小屏下能显示完整弹窗，压缩了行间距
+	&.mini-ms {
+		.ck-job-hot {
+			padding: 8px 0;
+
+			td {
+				height: 24px;
+			}
+
+			.ck-dashed {
+				td {
+					height: 8px;
+				}
+			}
+		}
+
+		.ck-job-all {
+			td {
+				height: 26px;
+			}
+		}
+	}
+}
+
+.ve-w-cock-box .layui-layer-btn {
+	padding: 0;
+	position: absolute;
+	top: 5px;
+	right: 0;
+
+	a {
+		color: @blank;
+		font-size: 16px;
+		font-weight: bold;
+		cursor: pointer;
+		height: 36px;
+		line-height: 36px;
+		padding: 0 12px;
+		background: none;
+		border: none;
+		float: right;
+
+		&:hover {
+			background: @hover;
+		}
+	}
+}
+.ve-w-cock-box .disabled{
+	color: #d8d8d8;
+	&:hover {
+		background: none;
+		color: #d8d8d8;
+	}
+}
