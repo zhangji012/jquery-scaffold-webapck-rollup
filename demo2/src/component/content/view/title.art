@@ -1,0 +1,6 @@
+<script id="layer-job-title-tpl" type="text/html">
+<div class="ve-layer-header">
+  这边是添加的模板
+   <img src="<%= iconpath %>" alt="" />
+</div>
+</script>

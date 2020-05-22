@@ -1,0 +1,8 @@
+<script id="layer-job-tpl" type="text/html">
+  <div class="ve-layer-shade"></div>
+  <% if(type * 1 === 1){ %>
+    <div class="ve-layer job" id="ve-layer"></div>
+  <% }else{ %>
+    <div class="ve-layer skin job" id="ve-layer"></div>
+  <% } %>
+</script>

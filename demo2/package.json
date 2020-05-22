@@ -1,0 +1,47 @@
+{
+  "name": "ve-pc-jq-cascader-post",
+  "version": "1.0.0",
+  "description": "最佳东方 jquery 职位弹窗组件",
+  "main": "dist/index.js",
+  "scripts": {
+    "serve": "browser-sync start --config config/bs-config.js",
+    "watch": "node_modules/.bin/rollup -w -c ./config/rollup.config.dev.js",
+    "start": "run-p serve watch",
+    "build": "node_modules/.bin/rollup -c ./config/rollup.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/DongFangWangShengKaiFa/dfws-fed-component"
+  },
+  "keywords": [
+    "ve",
+    "jquery"
+  ],
+  "author": "zhangji",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "browser-sync": "^2.5.1",
+    "less": "^3.0.4",
+    "npm-run-all": "^4.1.1",
+    "rollup": "^0.61.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-string": "^2.0.2",
+    "rollup-plugin-uglify": "^4.0.0",
+    "rollup-plugin-url": "^3.0.0",
+    "rollup-watch": "^4.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "jquery.nicescroll": "^3.7.6"
+  }
+}
