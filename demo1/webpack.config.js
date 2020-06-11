@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')     //打包的
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 // console.log(path.resolve(__dirname,'dist')); //物理地址拼接
 module.exports = {
-    entry: './src/index.js', //入口文件  在vue-cli main.js
+    entry: './src/index.js', //入口文件
     output: {       //webpack如何输出
         path: path.resolve(__dirname, 'dist'), //定位，输出文件的目标路径
         filename: '[name].js'
